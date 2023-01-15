@@ -1,0 +1,253 @@
+.body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* architects-section */
+.architects-section{
+  
+    width: 100vw;
+    height: 1050px;
+    background-color:rgba(255, 144, 14, 0.1); 
+}
+
+/* nav section */
+.architects-title{
+    font-weight: 300px;
+    font-size:30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px;
+  
+}
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    align-items:center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+/* architects-description */
+.architects-description{
+    
+    width: 700px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+.architects-description,.header-line{
+    font-weight: 300;
+    font-size: 25px;
+}
+.brand-design{
+    font-size: 18px;
+    color: #727272;
+}
+.architects-description .btn-primary{
+    color: #fff;
+    width: 180px;
+    height: 64px;
+    font-size: large;
+    background-color:#FF900E;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.banner-img img{
+   width: 1000px;
+   margin-left: 350px;
+}
+
+
+
+/* image-container */
+
+.feature-column{
+    display: flex;
+    gap: 280px;
+}
+
+.image-container ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 600px;
+    height: 800px;
+}
+.image-container img{
+    width: 300px;
+    margin-left: 50px;
+}
+.image-container ul li {
+    list-style: none;
+}
+/* blogs css */
+.blogs{
+    width: 600px;
+    text-align: left;
+    margin-top: 300px;
+}
+.blogs-title{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 45px;
+}
+.blogs .blog-embose {
+font-weight: 700;
+font-size: 45px;
+color: #FF900E;;
+}
+.blogs .blog-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.blogs  .btn-primary{
+    color: #fff;
+    width: 180px;
+    height: 54px;
+    font-size: large;
+    background-color:#FF900E;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/* feature-detial */
+.feature-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 100vw;
+height: 800px;
+
+}
+
+.blogs-deatails{
+    width: 600px;
+    margin-left: 100px;
+   
+}
+.paragraph-one{
+    background: rgba(218, 212, 212, 0.253);
+    height: 120px;
+}
+.image-container .con-img img{
+    width:500px;
+    height: 650px; 
+    margin-top: 100px;
+}
+.btn-secondary{
+    width: 150px;
+    height: 150px;
+    margin-left: 800px;
+    margin-top: -1000px;
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 35px;
+}
+.btn-secondary .btn-sm{
+    font-size: 20px;
+}
+/* facts-section */
+
+.facts-title{
+    width: 450px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 50px;
+    
+
+}
+.facts-title .sub-title{
+    font-size: 18px;
+    color: #727272;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    margin-left: 100px;
+    padding: 60px;
+   
+}
+.box-container .box{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+/* sponsor-title css*/
+.sponsor-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Work Sans';
+}
+.sponsor-sub{
+    font-size: 15px;
+    
+}
+.sponsor-logo ul {
+    display: grid;grid-template-columns: repeat(5,1fr);
+    padding: 50px;
+}
+.sponsor-logo ul li {
+    list-style: none;
+}
+/* footer css*/
+.footer{
+width: 1480px;
+height: 100px;
+text-align: center;
+background-color: #FFF4E7;
+margin-left: 38px;
+}
+.footer-text{
+    font-size: 20px;
+    padding: 36px;
+}
+
+
+/* media query */
+@media screen and (max-width:688px) {
+    nav, nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+.architects-description,.header-line{
+    margin-left: 100px;
+    text-align: left;
+}
+.banner-img img{
+    width:700px;
+    margin-left: 10px;
+}
+.feature-column {
+    display: flex;
+    flex-direction: column;   
+  
+}
+}
+
+@media screen and (max-width:577px) {
+    .feature-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      
+        margin-left: 10px;
+        padding: 60px;
+       
+    }
+    
+}
